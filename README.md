@@ -35,5 +35,8 @@ Based on the behavioral analysis, we propose the following rules for discretiona
 To run this analysis locally:
 1. Clone this repository.
 2. Ensure you have the required libraries installed: `pip install pandas numpy matplotlib seaborn`
-3. Place `historical_data.csv` and `fear_greed_index.csv` in the root directory.
-4. Run `notebook.ipynb` sequentially from top to bottom.
+3. Download the datasets from the original assignment links:
+   * [cite_start][Bitcoin Market Sentiment](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing) [cite: 14, 16]
+   * [cite_start][Historical Trader Data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKqBToqwSmmVYU6VbjVs/view?usp=sharing) [cite: 17, 19]
+4. Place the downloaded files (`historical_data.csv` and `fear_greed_index.csv`) into the root directory of the cloned repo.
+5. Run the `notebook.ipynb` sequentially from top to bottom.
